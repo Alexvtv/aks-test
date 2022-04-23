@@ -1,0 +1,28 @@
+.item {
+    position: relative;
+    padding: 5px 0 5px 20px;
+    margin: 0;
+}
+
+.item__inner {
+    display: flex;
+    align-items: center;
+}
+
+.item__image {
+    margin-right: 8px;
+}
+
+.item__child {
+
+}
+
+.item__chevron {
+    width: 20px;
+    position: absolute;
+    left: 0;
+}
+
+.item__closedChevron {
+    transform: rotate(-90deg);
+}
